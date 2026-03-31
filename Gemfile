@@ -45,3 +45,7 @@ group :development do
   # gem "spring"
 end
 
+gem 'sidekiq', '~> 7.0'
+gem 'redis'
+gem 'connection_pool', '~> 2.4'
+gem 'rspec-rails'
